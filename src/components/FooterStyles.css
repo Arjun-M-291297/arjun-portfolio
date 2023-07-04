@@ -1,0 +1,55 @@
+.footer{
+    width: 100%;
+    padding: 0;
+    font-size: 1rem ;
+    background-color: rgba(19,19,19,0.8);
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+
+.left{
+    height: 100%;
+    max-width: 100%;
+    padding: 1rem;
+}
+.location{
+    display: flex;
+    margin: 0.5rem 0;
+}
+.location p{
+    line-height: 1.7rem;
+}
+.phone{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.email{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.social{
+    display: inline-flex;
+    margin-bottom: 0.5rem;
+}
+
+.right{
+    height: 100%;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.left h4{
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:640px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,13 +1,60 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background: black !important;
+}
+
+h1,h2,h3,h4,p,a,ul{
+  color: white;
+  text-decoration: none;
+}
+.fc-yellow{
+  color: rgb(230, 230, 61); 
+}
+.react-color{
+  color:#5ED3F3
+}
+.vue-color{
+  color:#3FB27F
+}
+.btn {
+  background-color: rgb(230, 230, 61); 
+  border: none; 
+  color: black; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  font-weight: 600;
+  cursor: pointer; 
+  border-radius: 1px; 
+  border: 1.5px solid white;
+  margin: 0.5rem;
+}
+
+/* Cancel Button */
+.btn-light {
+  background-color: transparent;
+  border: none; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-weight: 600;
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 1px; 
+  border: 1.5px solid white;
+  margin: 0.5rem;
+}
+
+.btn:hover, .btn-light:hover {
+  opacity: 0.8; 
 }
