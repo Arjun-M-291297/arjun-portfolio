@@ -16,7 +16,6 @@ const TabsComp = () => {
       to_date: "",
     },
   };
-  const openCity = () => {};
   return (
     <Flex justify="center">
       <Box w="600px" pt={10} centerContent>

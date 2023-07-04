@@ -9,7 +9,7 @@ const HeroImg2 = (props) => {
         <div className="heading">
             <h1>{props.heading}</h1>
             <p>{props.text}</p>
-        {props.module=='exp' && <TabsComp />}
+        {props.module==='exp' && <TabsComp />}
         </div>
     </div>
   )

@@ -5,10 +5,9 @@ import { NavLink } from 'react-router-dom'
 const WorkCard = () => {
   return (
     <div className='work-container'>
-      <h1 className='project-heading'></h1>
       <div className='project-container'>
         <div className='project-card'>
-            <img src={pro1} alt="image"></img>
+            <img src={pro1}></img>
             <h2 className='project-title'>Project Title</h2>
             <div className='pro-details'>
                 <p>This is text</p>
