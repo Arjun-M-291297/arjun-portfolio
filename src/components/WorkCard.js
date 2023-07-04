@@ -7,7 +7,7 @@ const WorkCard = () => {
     <div className='work-container'>
       <div className='project-container'>
         <div className='project-card'>
-            <img src={pro1}></img>
+            <img src={pro1} alt=""></img>
             <h2 className='project-title'>Project Title</h2>
             <div className='pro-details'>
                 <p>This is text</p>
