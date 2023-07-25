@@ -26,8 +26,8 @@ const Footer = () => {
                         <h4>arjun.krishna.291297@gmail.com</h4>                
                </div>
                 <div className='social'>
-                <FaTwitter size={30} style={{color:"#1DA1F2",marginRight:"1rem"}}/>
-                <FaLinkedin size={30} style={{color:"#0077B5",marginRight:"1rem"} } className="twitter-color"/>
+                <a href="https://twitter.com/Arjunkrizz" target="_blank" rel="noopener noreferrer"><FaTwitter size={30} style={{color:"#1DA1F2",marginRight:"1rem"}}/></a>
+                <a href="https://www.linkedin.com/in/arjun-m-73775b191" target="_blank" rel="noopener noreferrer"><FaLinkedin size={30} style={{color:"#0077B5",marginRight:"1rem"} } className="twitter-color"/></a>
                 </div>
             </div>
         </div>

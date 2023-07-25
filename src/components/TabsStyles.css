@@ -30,7 +30,9 @@
     border-bottom: 2px solid;
     border-color: inherit;
 }
-
+.css-1xhq01z{
+    min-width: 640px;
+}
 .chakra-tabs{
     height: 80vh;
   }
@@ -38,3 +40,9 @@
     margin:3rem 1rem;
     width: 120vh !important;
   }
+
+@media screen and (max-width:640px) {
+    .css-1xhq01z{
+        flex-direction: column !important;
+    }
+}

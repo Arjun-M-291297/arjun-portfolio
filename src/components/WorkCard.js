@@ -8,12 +8,11 @@ const WorkCard = () => {
       <div className='project-container'>
         <div className='project-card'>
             <img src={pro1} alt=""></img>
-            <h2 className='project-title'>Project Title</h2>
+            <h2 className='project-title'>Todo App</h2>
             <div className='pro-details'>
-                <p>This is text</p>
+                {/* <p>This is text</p> */}
                 <div className='pro-btns'>
-                    <NavLink to="url.com" className="btn">VIEW</NavLink>
-                    <NavLink to="url.com" className="btn">SOURCE</NavLink>
+                    <NavLink to="https://sweet-boba-e71c72.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn">VIEW</NavLink>
                 </div>
             </div>
         </div>
